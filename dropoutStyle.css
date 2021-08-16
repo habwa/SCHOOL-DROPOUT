@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    background-image: url('img/pic1.jpg');
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #174d5adb;
+}
+
+.nav a{
+    width: 25%;
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    background-color: #c2c4f749;
+    color: #1a262c;
+}
+
+.mssg{
+    background-color: #000000a4;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+    margin: 10px auto;
+}
+
+.dropout{
+    width: 100%;
+    padding: 20px;
+}
+
+.dropform{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #0716199c;
+    color: #f2e4d6;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.747);
+}
+
+.myForm fieldset{
+    border: 1px solid #b8bdf0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.myForm legend{
+  background-color: #2f6774;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.myForm fieldset label{
+    margin-top: 5px;
+    color: white;
+}
+
+.myForm input[type=text], textarea, input[type=telephone], input[type=date], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    min-width: none;
+    display: inline-block;
+    border: 1px solid #b8bdf0;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #ddeef1;
+}
+
+.myForm select{
+    display: block;
+    color: #444;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #ddeef1;
+}
+
+.myForm input[type=submit]{
+    width: 100%;
+    background-color: #161f23;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.myForm input[type=submit]:hover{
+    background-color: #3b525d;
+}
+
+
+.footer{
+    background-color: #0a1d22e8;
+    width: 100%;
+}
+
+.footer footer{
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;   
+    justify-content: space-around; 
+}
+
+.contact_us form input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.contact_us form input[type=submit]{
+    width: fit-content;
+    background-color: #161f23;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.contact_us form input[type=submit]:hover{
+    background-color: #3b525d;
+}

@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    background: linear-gradient(12deg, #124d5a, #ebf2f3);
+    background-attachment: fixed;
+    letter-spacing: 1px;
+}

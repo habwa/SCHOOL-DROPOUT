@@ -1,0 +1,34 @@
+database name: DROPOUT
+
+user_acount:
+    username: habwikuzo,
+    password: Habwa@12
+
+tables:
+    dropout{
+        id,
+        full_name,
+        age,
+        f_name,
+        m_name,
+        gender,
+        email,
+        dropout_date,
+        eduction_level,
+        reason
+    }
+
+    sponsor{
+        id,
+        f_name,
+        l_name,
+        email,
+        frequency,
+        pay_method,
+        amount,
+        sp_address
+    }
+
+tomorrow speduler:
+    * save data to database
+    * sponsor home page

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    background: linear-gradient(12deg, #124d5a, #ebf2f3);
+    background-attachment: fixed;
+    letter-spacing: 1px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: #275159;
+}
+
+.nav a{
+    width: 25%;
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    background-color: #c2c4f7;
+    color: #1a262c;
+}
+
+.mainCont{
+    margin: auto;
+    padding: 20px;
+}
+
+.mssg{
+    background-color: #000000a4;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+    margin: 10px auto;
+}
+
+.Cont{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #5270a3;
+}
+
+.Cont img{
+    width: 100%;
+}
+
+.Cont p{
+    margin: 10px 20px;
+    font-size: large;
+}
+
+.footer{
+    background-color: #0a1d22e8;
+    width: 100%;
+}
+
+.footer footer{
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-direction: row;   
+    justify-content: space-around; 
+}
+
+.contact_us form input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.contact_us form input[type=submit]{
+    width: fit-content;
+    background-color: #161f23;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.contact_us form input[type=submit]:hover{
+    background-color: #3b525d;
+}
