@@ -37,15 +37,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dropoutStyle.css">
+    <link rel="stylesheet" type="text/css" href="footerStyle.css">
+    <link rel="stylesheet" type="text/css" href="navbarStyle.css">
     <title>School dropout</title>
 </head>
 <body>
-    <div class="nav">
-        <a href="webPage.php">Home</a>
-        <a href="dropout.php">Dropout Form</a>
-        <a href="Login.php">Login</a>
-        <a href="sponsor.php">Sponsor</a>
-    </div>
+    <?php include('navbar.php') ?>
 
     <?php if($mssg){ ?>
         <p class="mssg"><?php echo $mssg ?></p>

@@ -5,3 +5,19 @@ body {
     background-attachment: fixed;
     letter-spacing: 1px;
 }
+
+.cont{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student{
+    width: fit-content;
+    max-width: 400px;
+    background-color: lightcyan;
+    padding: 12px;
+    margin: 15px;
+}
+
